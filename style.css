@@ -187,4 +187,94 @@ body{
     background:#0ea5e9;
     transform:translateY(-3px);
 }
+/* ==========================
+   PROJECTS
+========================== */
+
+.project-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+.project-card h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+/* ==========================
+   BLOGS
+========================== */
+
+.blog{
+    background:#1e293b;
+    padding:20px;
+    margin:20px 0;
+    border-radius:12px;
+}
+
+/* ==========================
+   CONTACT
+========================== */
+
+#contact{
+    text-align:center;
+}
+
+#contact p{
+    margin:10px 0;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+    margin-top:40px;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero h1{
+        font-size:32px;
+    }
+
+    .hero h2{
+        font-size:20px;
+    }
+
+    .hero-content img{
+        width:120px;
+        height:120px;
+    }
+}
 
