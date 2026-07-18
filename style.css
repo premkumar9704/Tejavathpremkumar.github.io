@@ -131,6 +131,57 @@ body{
     font-weight:bold;
     transition:0.3s;
 }
+/* ==========================
+   Skills Section
+========================== */
+
+#skills{
+    padding:80px 10%;
+}
+
+.skill-container{
+    max-width:800px;
+    margin:auto;
+}
+
+.skill{
+    margin-bottom:25px;
+}
+
+.skill h3{
+    margin-bottom:10px;
+    font-size:20px;
+    color:#ffffff;
+}
+
+.progress{
+    width:100%;
+    height:24px;
+    background:#1e293b;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    height:100%;
+    background:#38bdf8;
+    color:#020617;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding-right:10px;
+    border-radius:20px;
+}
+
+.linux{width:90%;}
+.git{width:85%;}
+.shell{width:80%;}
+.docker{width:75%;}
+.kubernetes{width:70%;}
+.aws{width:75%;}
+.jenkins{width:65%;}
+
 
 .buttons a:hover{
     background:#0ea5e9;
