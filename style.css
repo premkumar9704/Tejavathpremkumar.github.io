@@ -124,25 +124,6 @@ body{
 }
 
 
-/* Buttons */
-
-.buttons a{
-    display:inline-block;
-    margin:10px;
-    padding:12px 25px;
-    background:#38bdf8;
-    color:#020617;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-
-.buttons a:hover{
-    transform:scale(1.05);
-}
-
-
 
 /* Sections */
 
